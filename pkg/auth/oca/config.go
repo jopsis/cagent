@@ -51,7 +51,7 @@ func (c *IDCSConfig) ActiveProfile() *IDCSProfile {
 func DefaultInternalProfile() IDCSProfile {
 	base := "https://idcs-9dc693e80d9b469480d7afe00e743931.identity.oraclecloud.com"
 	return IDCSProfile{
-		ClientID:       "a8331954c0cf48ba99b5dd223a14c6ea",
+		ClientID:       "6884562c7ec549fd8537ffe2a05c7383",
 		IDCSBaseURL:    base,
 		AuthEndpoint:   base + "/oauth2/v1/authorize",
 		TokenEndpoint:  base + "/oauth2/v1/token",
